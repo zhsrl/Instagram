@@ -1,6 +1,7 @@
 body{
   font-family: 'Arial' , sans-serif;
   background: #f7f7f7;
+  margin: 0;
 }
 
 header{
@@ -38,12 +39,143 @@ header{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
+  box-sizing: border-box;
   left:210px;
   bottom:1000px;
   width:350px;
-  height: 595px;
+  height: 640px;
   border:1px solid #d9d9d9;
   -webkit-box-shadow: 3px -3px 33px -35px rgba(0,0,0,0.77);
   -moz-box-shadow: 3px -3px 33px -35px rgba(0,0,0,0.77);
   box-shadow: 3px -3px 33px -35px rgba(0,0,0,0.77);
+}
+
+#inst-logo{
+  position: relative;
+  width: 190px;
+  height: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text-over-logo{
+  position: relative;
+  text-align: center;
+  font-weight: 600;
+  font-size: 17px;
+  color: #b8b8b8;
+}
+
+.sign-in-with-fbook{
+  position: relative;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+  background-color: rgb(67, 156, 241);
+  border: 1px solid rgb(67, 156, 241);
+  padding: 6px 50px 6px 50px;
+  weight:20px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+#fbook-logo{
+  position: relative;
+  weight:27px;
+  height: 27px;
+  bottom:29px;
+  left:50px;
+
+}
+
+#or{
+  position: relative;
+  display: block;
+  font-size: 18px;
+
+  color:#b8b8b8;
+  left:130px;
+  bottom: 30px;
+}
+
+.auth-sub-block{
+  position: relative;
+  bottom: 30px;
+}
+
+.mail-or-number{
+  position: relative;
+  padding: 9px;
+  width: 260px;
+  display: block;
+  margin: 0 auto 0 auto;
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+  color: #B2B3B3;
+  background:#F7F7F7 ;
+}
+
+.f-s-name{
+  position: relative;
+  padding: 9px;
+  width: 260px;
+  display: block;
+  margin: 0 auto 0 auto;
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+  color: #B2B3B3;
+  background: #F7F7F7;
+  top: 6px;
+}
+
+.login{
+  position: relative;
+  padding: 9px;
+  width: 260px;
+  display: block;
+  margin: 0 auto 0 auto;
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+  color: #B2B3B3;
+  background: #F7F7F7;
+  top: 12px;
+}
+
+.password{
+  position: relative;
+  padding: 9px;
+  width: 260px;
+  display: block;
+  margin: 0 auto 0 auto;
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+  color: #B2B3B3;
+  background: #F7F7F7;
+  top: 18px;
+}
+
+.next{
+  position: relative;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+  background-color: rgb(67, 156, 241);
+  border: 1px solid rgb(67, 156, 241);
+  padding: 6px 120px 6px 120px;
+  weight:20px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto 0 auto;
+  top: 28px;
+}
+
+#over-auth{
+  position: relative;
+  font-size: 13px;
+  text-align: center;
 }
