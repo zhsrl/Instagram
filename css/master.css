@@ -1,0 +1,49 @@
+body{
+  font-family: 'Arial' , sans-serif;
+  background: #f7f7f7;
+}
+
+header{
+  width: 935px;
+  height: 866px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+#phone-image{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:454px;
+  height: 618px;
+  right: 180px;
+  top:125px;
+}
+
+#in-phone{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 247px;
+  height: 436px;
+  bottom:398px;
+  right: 136px;
+}
+
+.auth-block{
+  position: relative;
+  background: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  left:210px;
+  bottom:1000px;
+  width:350px;
+  height: 595px;
+  border:1px solid #d9d9d9;
+  -webkit-box-shadow: 3px -3px 33px -35px rgba(0,0,0,0.77);
+  -moz-box-shadow: 3px -3px 33px -35px rgba(0,0,0,0.77);
+  box-shadow: 3px -3px 33px -35px rgba(0,0,0,0.77);
+}
