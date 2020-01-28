@@ -6,9 +6,8 @@ body{
 
 header{
   width: 935px;
-  height: 866px;
+  height: 956px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 #phone-image{
@@ -178,4 +177,83 @@ header{
   position: relative;
   font-size: 13px;
   text-align: center;
+  color: #B2B3B3;
+
+}
+
+#a1 , #a2 , #a3{
+  font-weight: bold;
+  color: #B2B3B3;
+  text-decoration: none;
+}
+
+.auth-s-block{
+  position: relative;
+  background: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  font-size: 13px;
+  text-align: center;
+  box-sizing: border-box;
+  left:210px;
+  bottom:990px;
+  width:350px;
+  height: 60px;
+  border:1px solid #d9d9d9;
+  -webkit-box-shadow: 3px -3px 33px -35px rgba(0,0,0,0.77);
+  -moz-box-shadow: 3px -3px 33px -35px rgba(0,0,0,0.77);
+  box-shadow: 3px -3px 33px -35px rgba(0,0,0,0.77);
+}
+
+#sign{
+  text-decoration: none;
+  color: rgb(62, 163, 218);
+}
+
+.install{
+  position: relative;
+  text-align: right;
+  font-size: 14px;
+  bottom:965px;
+  left:100px;
+}
+
+.gplay{
+  position: relative;
+  width: 130px;
+  height: 40px;
+  top:60px;
+  right: 85px;
+}
+
+.appstore{
+  position: relative;
+  width: 136px;
+  height: 40px;
+  top:60px;
+  right: 365px;
+}
+
+footer{
+  width: 1012px;
+  height: 122px;
+  margin: 0 auto;
+}
+
+a{
+  position: relative;
+  top: 40px;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(39, 83, 148 );
+}
+
+.text{
+  position: relative;
+  top:60px;
+  font-size: 13px;
+  color: #b3b3b3;
 }
